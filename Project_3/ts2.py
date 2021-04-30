@@ -125,7 +125,7 @@ print("[TS2]: Server hostname is {}".format(host))
 localhost_ip = socket.gethostbyname(host)
 print("[TS2]: Server IP address is {}".format(localhost_ip))
 print("[TS2]: Server port number is {}".format(args.port))
-
+print("[TS2]: Server DNS UDP {} {} port {}".format('CLOUDFLARE', '1.1.1.1', 53))
 # Parts of the message
 header = "AA AA 01 00 00 01 00 00 00 00 00 00"
 end = "00 00 01 00 01"
