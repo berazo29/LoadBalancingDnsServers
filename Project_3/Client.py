@@ -5,7 +5,7 @@ import socket
 #First we use the argparse package to parse the aruments
 parser = argparse.ArgumentParser(description="""This is a very basic client program""")
 parser.add_argument('-f', type=str, help='This is the source file for the strings to reverse', default='PROJ3-HNS.txt',action='store', dest='in_file')
-parser.add_argument('-o', type=str, help='This is the destination file for the reversed strings', default='RESOLVED2.txt',action='store', dest='out_file')
+parser.add_argument('-o', type=str, help='This is the destination file for the reversed strings', default='RESOLVED.txt',action='store', dest='out_file')
 parser.add_argument('server_location', type=str, help='This is the domain name or ip address of the server',action='store')
 parser.add_argument('rsport', type=int, help='This is the port to connect to the server on',action='store')
 

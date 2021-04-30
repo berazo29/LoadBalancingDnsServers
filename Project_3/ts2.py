@@ -196,7 +196,7 @@ while True:
                         sent += extract_one_ip(i) + ','
                     else:
                         # if not type 1 return the other and the ip
-                        sent += 'other' + ',' + extract_one_ip(i) + ','
+                        sent += extract_one_ip(i) + ','
 
                 # Remove extra character at the end
                 sent = sent.rstrip(sent[-1])
